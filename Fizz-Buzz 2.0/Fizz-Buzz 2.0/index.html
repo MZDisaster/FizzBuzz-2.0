@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="script.js"></script>
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="pageContainer">
+        <div id="header">
+            <h1>Fizz-Buzz 2.0</h1>
+        </div>
+        <div id="content">
+            <h3>What is Fizz-Buzz?</h3>
+            <p>FizzBuzz is the webversion of the famous application that analyzes numbers and sorsts them into<br/>Fizz numbers, Buzz numbers and FizzBuzz numbers.</p>
+            <div id="fizzbuzzinput">
+                <label for="number">Start number:</label><input type="number" id="startNumber" value="1" />
+                <label for="number">End number:</label><input type="number" id="endNumber" value="100" />
+                <label for="number">Input a fizz number:</label><input type="number" id="fizznumber" value="3" />
+                <label for="number">Input a buzz number:</label><input type="number" id="buzznumber" value="4" />
+                <button id="numberSubmit" value="12">Check</button>
+            </div>
+            <div id="fizzbuzzContent">
+                <div id="fizzresult">
+                    <h2>Fizz Result:</h2>
+                    <div class="list">
+                        <ul id="fizzresultUL"></ul>
+                    </div>
+                </div>
+                <div id="buzzresult">
+                    <h2>Buzz Result:</h2>
+                    <div class="list">
+                        <ul id="buzzresultUL"></ul>
+                    </div>
+                </div>
+                <div id="fizzbuzzresult">
+                    <h2>FizzBuzz Result:</h2>
+                    <div class="list">
+                        <ul id="fizzbuzzresultUL"></ul>
+                    </div>
+                </div>
+                <div id="excludedresult">
+                    <h2>Excluded Result:</h2>
+                    <div class="list">
+                        <ul id="excludedresultUL"></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <a href="https://github.com/mzdisaster"><h4>Made by Moaz</h4></a>
+            <h4>© 2016</h4>
+        </div>
+    </div>
+</body>
+</html>
